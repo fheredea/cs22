@@ -1,0 +1,47 @@
+\documentclass[12pt,letterpaper]{article}
+\usepackage{amsmath,amsthm,amsfonts,amssymb,amscd}
+\usepackage{fullpage}
+\usepackage{lastpage}
+\usepackage{enumerate}
+\usepackage{fancyhdr}
+\usepackage{mathrsfs}
+\usepackage[margin=3cm]{geometry}
+\setlength{\parindent}{0.0in}
+\setlength{\parskip}{0.05in}
+
+% Edit these as appropriate
+\newcommand\course{CS 22}
+\newcommand\semester{Spring 2012}     % <-- current semester
+\newcommand\hwnum{1}                  % <-- homework number
+\newcommand\yourname{Josiah Carberry} % <-- your name
+\newcommand\login{jcarberr}           % <-- your CS login
+
+\newenvironment{answer}[1]{
+  \subsubsection*{Problem \hwnum.#1}
+}{\newpage}
+
+\pagestyle{fancyplain}
+\headheight 35pt
+\lhead{\yourname\ (\login)\\\course\ --- \semester}
+\chead{\textbf{\Large Homework \hwnum}}
+\rhead{\today}
+\headsep 10pt
+
+\begin{document}
+
+\begin{answer}{1}
+Answer to problem 1 goes here.
+
+More answers.
+
+Blah...
+
+Hi there!
+\end{answer}
+
+\begin{answer}{2}
+Answer to problem 2 goes here, etc.
+\end{answer}
+
+\end{document}
+
