@@ -3,10 +3,10 @@ $(document).ready(function() {
 });
 
 function setCurrentAssignment() {
-    var tableBody = $("table.assignments tbody");
-    var latestAssignment = tableBody.children().last()[0];
+    var rows = $("table.assignments tbody tr:not(.special)");
+    var latestAssignment = rows.last()[0];
 
-    var index = tableBody[0].children.length - 1;
+    var index = rows.length;
     var link = latestAssignment.children[1].children[0].href;
     var deadline = moment(latestAssignment.children[4].innerHTML).hours(23);
 
