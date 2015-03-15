@@ -12,8 +12,7 @@ function setHoursStatus() {
             var current = earliestEvent;
             var title = current.summary.toLowerCase();
             if(title.indexOf("hour") >= 0 || title.indexOf("clinic") >= 0) {
-                var status = $(".status");
-                status.addClass("online");
+                $(".status").addClass("online");
             }
         }
     })
