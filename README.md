@@ -20,6 +20,6 @@ That's it! The live version of the site can be found [here](http://cs.brown.edu/
 
 ## To-Do
 
-- Highlight next lecture in table
-- Make next lecture and current TA hours dynamic
+- Make current TA hours dynamic
 - Link to pages in lecture notes
+- Sprite up the TA pictures

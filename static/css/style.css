@@ -353,6 +353,17 @@ only screen and (max-width: 760px),
     text-align: center;
 }
 
+/** Lectures */
+
+.next-lecture-title {
+    font-size: 2em;
+}
+
+tr.next-lecture {
+    background-color: #FFF4DC;
+    color: #666;
+}
+
 /** Staff */
 
 .staff .container {
