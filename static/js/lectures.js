@@ -7,7 +7,7 @@ function setNextLecture() {
     var lectures = $("table.lectures tbody tr");
     for(var i = 0; i < lectures.length; i++) {
         var lecture = lectures[i];
-        var lectureDate = moment(lecture.children[0].innerHTML).year(2015).hours(10);
+        var lectureDate = moment(lecture.children[0].innerHTML, "MMMM DD").year(2015).hours(10);
         var now = moment();
 
         if(lectureDate.isAfter(now)) {
