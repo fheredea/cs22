@@ -6,7 +6,7 @@ html {
 }
 
 body {
-    color: #7a8889;
+    color: #777;
     font-family: 'Whitney', "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 1.6em;
 
@@ -419,6 +419,11 @@ tr.next-lecture {
     }
 }
 
+.col-sm-12, .col-xs-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 .head-tas .container {
     padding: 0;
 }
@@ -444,185 +449,104 @@ tr.next-lecture {
     margin-bottom: 15px;
     background-size: auto 100%;
     background-repeat: no-repeat;
-    background-image: url('../images/staff-pictures/default.png');
+    background-image: url('../images/staff/default.png');
+
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+}
+
+.profile-picture:hover, .profile-picture.hover {
+    background-position: 100% 0%;
 }
 
 /** Staff Pictures */
 
 .head-tas .profile-picture {
-    background-image: url(' ../images/staff-pictures/htas-characters.png');
-}
-
-.head-tas .profile-picture:hover {
-    background-image: url(' ../images/staff-pictures/htas.png');
+    background-image: url(' ../images/staff/htas.jpg');
 }
 
 #aeleti .profile-picture {
-    background-image: url(' ../images/staff-pictures/aeleti-character.png');
-}
-
-#aeleti .profile-picture:hover {
-    background-image: url(' ../images/staff-pictures/aeleti.png');
+    background-image: url(' ../images/staff/aeleti.jpg');
 }
 
 #ah44 .profile-picture {
-    background-image: url(' ../images/staff-pictures/ah44-character.png');
-}
-
-#ah44 .profile-picture:hover {
-    background-image: url(' ../images/staff-pictures/ah44.png');
+    background-image: url(' ../images/staff/ah44.jpg');
 }
 
 #afwang .profile-picture {
-    background-image: url(' ../images/staff-pictures/afwang-character.png');
-}
-
-#afwang .profile-picture:hover {
-    background-image: url(' ../images/staff-pictures/afwang.png');
+    background-image: url(' ../images/staff/afwang.jpg');
 }
 
 #avanhatt .profile-picture {
-    background-image: url(' ../images/staff-pictures/avanhatt-character.png');
-}
-
-#avanhatt .profile-picture:hover {
-    background-image: url(' ../images/staff-pictures/avanhatt.png');
+    background-image: url(' ../images/staff/avanhatt.jpg');
 }
 
 #dnurieli .profile-picture {
-    background-image: url(' ../images/staff-pictures/dnurieli-character.png');
-}
-
-#dnurieli .profile-picture:hover {
-    background-image: url(' ../images/staff-pictures/dnurieli.png');
+    background-image: url(' ../images/staff/dnurieli.jpg');
 }
 
 #fheredea .profile-picture {
-    background-image: url(' ../images/staff-pictures/fheredea-character.png');
-}
-
-#fheredea .profile-picture:hover {
-    background-image: url(' ../images/staff-pictures/fheredea.png');
+    background-image: url(' ../images/staff/fheredea.jpg');
 }
 
 #hmalvai .profile-picture {
-    background-image: url(' ../images/staff-pictures/hmalvai-character.png');
-}
-
-#hmalvai .profile-picture:hover {
-    background-image: url(' ../images/staff-pictures/hmalvai.png');
+    background-image: url(' ../images/staff/hmalvai.jpg');
 }
 
 #jcpalmer .profile-picture {
-    background-image: url(' ../images/staff-pictures/jcpalmer-character.png');
-}
-
-#jcpalmer .profile-picture:hover {
-    background-image: url(' ../images/staff-pictures/jcpalmer.png');
+    background-image: url(' ../images/staff/jcpalmer.jpg');
 }
 
 #jissroff .profile-picture {
-    background-image: url(' ../images/staff-pictures/jissroff-character.png');
-}
-
-#jissroff .profile-picture:hover {
-    background-image: url(' ../images/staff-pictures/jissroff.png');
+    background-image: url(' ../images/staff/jissroff.jpg');
 }
 
 #jvananh .profile-picture {
-    background-image: url(' ../images/staff-pictures/jvananh-character.png');
-}
-
-#jvananh .profile-picture:hover {
-    background-image: url(' ../images/staff-pictures/jvananh.png');
+    background-image: url(' ../images/staff/jvananh.jpg');
 }
 
 #zy15 .profile-picture {
-    background-image: url(' ../images/staff-pictures/zy15-character.png');
-}
-
-#zy15 .profile-picture:hover {
-    background-image: url(' ../images/staff-pictures/zy15.png');
+    background-image: url(' ../images/staff/zy15.jpg');
 }
 
 #kb25 .profile-picture {
-    background-image: url(' ../images/staff-pictures/kb25-character.png');
-}
-
-#kb25 .profile-picture:hover {
-    background-image: url(' ../images/staff-pictures/kb25.png');
+    background-image: url(' ../images/staff/kb25.jpg');
 }
 
 #kl47 .profile-picture {
-    background-image: url(' ../images/staff-pictures/kl47-character.png');
-}
-
-#kl47 .profile-picture:hover {
-    background-image: url(' ../images/staff-pictures/kl47.png');
+    background-image: url(' ../images/staff/kl47.jpg');
 }
 
 #lconwill .profile-picture {
-    background-image: url(' ../images/staff-pictures/lconwill-character.png');
-}
-
-#lconwill .profile-picture:hover {
-    background-image: url(' ../images/staff-pictures/lconwill.png');
+    background-image: url(' ../images/staff/lconwill.jpg');
 }
 
 #mzelling .profile-picture {
-    background-image: url(' ../images/staff-pictures/mzelling-character.png');
-}
-
-#mzelling .profile-picture:hover {
-    background-image: url(' ../images/staff-pictures/mzelling.png');
+    background-image: url(' ../images/staff/mzelling.jpg');
 }
 
 #nvirdy .profile-picture {
-    background-image: url(' ../images/staff-pictures/nvirdy-character.png');
-}
-
-#nvirdy .profile-picture:hover {
-    background-image: url(' ../images/staff-pictures/nvirdy.png');
+    background-image: url(' ../images/staff/nvirdy.jpg');
 }
 
 #pchanthr .profile-picture {
-    background-image: url(' ../images/staff-pictures/pchanthr-character.png');
-}
-
-#pchanthr .profile-picture:hover {
-    background-image: url(' ../images/staff-pictures/pchanthr.png');
+    background-image: url(' ../images/staff/pchanthr.jpg');
 }
 
 #rz14 .profile-picture {
-    background-image: url(' ../images/staff-pictures/rz14-character.png');
-}
-
-#rz14 .profile-picture:hover {
-    background-image: url(' ../images/staff-pictures/rz14.png');
+    background-image: url(' ../images/staff/rz14.jpg');
 }
 
 #sj4 .profile-picture {
-    background-image: url(' ../images/staff-pictures/sj4-character.png');
-}
-
-#sj4 .profile-picture:hover {
-    background-image: url(' ../images/staff-pictures/sj4.png');
+    background-image: url(' ../images/staff/sj4.jpg');
 }
 
 #svatasoi .profile-picture {
-    background-image: url(' ../images/staff-pictures/svatasoi-character.png');
-}
-
-#svatasoi .profile-picture:hover {
-    background-image: url(' ../images/staff-pictures/svatasoi.png');
+    background-image: url(' ../images/staff/svatasoi.jpg');
 }
 
 #tbasutri .profile-picture {
-    background-image: url(' ../images/staff-pictures/tbasutri-character.png');
-}
-
-#tbasutri .profile-picture:hover {
-    background-image: url(' ../images/staff-pictures/tbasutri.png');
+    background-image: url(' ../images/staff/tbasutri.jpg');
 }
 
 /** Footer */
