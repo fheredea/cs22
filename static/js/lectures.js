@@ -1,5 +1,6 @@
 $(document).ready(function() {
     setNextLecture();
+    setPageLinks();
 });
 
 function setNextLecture() {
@@ -15,5 +16,18 @@ function setNextLecture() {
             $(".next-lecture-date").text(lectureDate.format("dddd, MMMM Do") + " at 9:00 AM in Salomon 001.");
             break;
         }
+    }
+}
+
+function setPageLinks() {
+    var links = $("table.lectures td a");
+    for(var i = 0; i < links.length; i++) {
+        var link = $(links[i]);
+        if(link.attr("data-page")) {
+            var pageNumber = parseInt(link.attr("data-page")) + 8; // Add 8 because textbook page numbers are different from PDF page numbers
+            var pageURL = "static/files/documents/CS22Book.pdf#page=" + pageNumber;
+
+            link.attr("href", pageURL);
+        }   
     }
 }
