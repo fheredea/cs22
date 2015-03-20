@@ -22,3 +22,4 @@ That's it! The live version of the site can be found [here](http://cs.brown.edu/
 
 - Make current TA hours dynamic ("Atty Eleti (aeleti) is holding hours right now in the Motorola Room.")
 - Sprite up the TA pictures
+- Add new staff pictures
