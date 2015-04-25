@@ -6,7 +6,7 @@ function setCurrentAssignment() {
     var rows = $("table.assignments tbody tr:not(.special)");
     var latestAssignment = rows.last()[0];
 
-    var index = rows.length;
+    var index = rows.length - 1;
     var link = latestAssignment.children[1].children[0].href;
     var deadline = moment(latestAssignment.children[4].innerHTML).hours(23);
 
