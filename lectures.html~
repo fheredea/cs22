@@ -247,22 +247,22 @@
                 </tr>
                 <tr>
                     <td>April 13</td>
-                    <td>Random Variables I, Expected Value II, Linearity of Expectation</td>
+                    <td>Random Variables I, Expected Value II, Binomial Distribution, Linearity of Expectation</td>
                     <td><a data-page="635">18.1</a>, <a data-page="637">18.2</a>, <a data-page="646">18.4</a>, <a data-page="658">18.5</a></td>
                 </tr>
                 <tr>
                     <td>April 15</td>
-                    <td>Random Variables II, Expected Value II, Binomial Distribution</td>
+                    <td>Random Variables II, Expected Value II, Variance I</td>
                     <td><a data-page="638">18.3</a>, <a data-page="646">18.4</a></td>
                 </tr>
                 <tr>
                     <td>April 17</td>
-                    <td>Variance, Independence, Random Variables III</td>
+                    <td>Variance II, Independence, Random Variables III, Markov Bounds</td>
                     <td><a data-page="637">18.2</a>, <a data-page="682">19.3</a>, <a data-page="686">19.4</a></td>
                 </tr>
                 <tr>
                     <td>April 20</td>
-                    <td>Markov/Chebyshev Bounds, Intro to Graph Theory (Vertex, Edge, Path, Degree, Simplicity, Completeness, Connectivity)</td>
+                    <td>Chebyshev Bounds, Intro to Graph Theory (Vertex, Edge, Path, Degree, Simplicity, Completeness, Connectivity)</td>
                     <td><a data-page="680">19.2</a>, <a data-page="682">19.3</a>, <a data-page="315">11.1</a></td>
                 </tr>
                 <tr>
