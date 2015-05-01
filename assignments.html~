@@ -69,11 +69,14 @@
 
 <section class="current-assignment">
     <div class="container highlight-card">
-        <h3 class="small-caps">Current Assignment</h3>
+        <h3 class="small-caps">Studying!</h3> <!-- Current Assignment -->
         <!-- Automatically set by script; please do not touch -->
 	    <!-- ^^ No. -->
+	<p class="current-link"><a href="http://cs.brown.edu/courses/cs022/static/files/notes/summary.pdf">Class Summary<i class="fa fa-angle-right"></i></a></p>
+<!--
         <p class="current-link"><a href="">Homework <span class="assignment-index"></span><i class="fa fa-angle-right"></i></a></p>
         <p class="deadline-message"></p>
+-->
     </div>
 </section>
 
@@ -166,7 +169,7 @@
                     <td><b>4/1/2015</b></td>
 		    <td><a href="static/files/sol/hw07-sol.128.pdf">Solutions 7</a></td>
                 </tr>
-		<tr>
+		<tr class="special">
                     <td></td>
                     <td>Midterm 2</a></td>
                     <td><a href="static/files/sol/midterm2-sol.128.pdf">Solutions</a></td>
@@ -188,7 +191,7 @@
                     <td></a></td>
                     <td>4/16/2015</td>
                     <td>4/23/2015</td>
-                    <td></td>
+		    <td><a href="static/files/sol/hw09-sol.128.pdf">Solutions 9</a></td>
                 </tr>
 		<tr>
                     <td>10</td>
